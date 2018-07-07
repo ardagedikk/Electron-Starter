@@ -1,0 +1,69 @@
+/*
+================================================================================
+
+  Theme Name : Electron Starter
+  Version    : 1.0.0
+  Author     : Arda Gedik
+  Date       : 00/00/0000
+
+================================================================================
+  CSS Documentation
+================================================================================
+
+  1.0.0     - General Options
+  1.1.0     - Box Shadows
+  1.2.0     - Colors
+
+  1.2.0     - Layouts
+    1.2.1   - Header
+    1.2.2   - Footer
+
+
+================================================================================
+  1.0.0 - General Options
+================================================================================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&subset=latin-ext');
+body{
+
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	font-variant: normal;
+  color  : #000;
+  margin : 0;
+  padding: 0;
+
+}
+
+/*
+================================================================================
+  1.1.0 - Box Shadows
+================================================================================
+*/
+
+.raised-shadow {
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.10);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.10);
+}
+
+.overlay-shadow {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+}
+
+.sticky-nav-shadow {
+  -webkit-box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.10);
+          box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.10);
+}
+
+.temporary-nav-shadow {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.10);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.10);
+}
+
+.pop-out-shadow {
+  -webkit-box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.10);
+          box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.10);
+}

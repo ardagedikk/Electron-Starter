@@ -1,0 +1,24 @@
+{
+  "name": "Electron-Starter",
+  "version": "1.0.0",
+  "description": "Simple electron starter project",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "simple",
+    "starter"
+  ],
+  "author": "Arda Gedik <ardagedikk@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "electron": "^2.0.4"
+  }
+}
