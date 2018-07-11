@@ -5,8 +5,8 @@
 ## Install
 
 ```sh
-git clone https://github.com/ardagedikk/Electron-Starter.git
-cd Electron-Starter
+git clone https://github.com/ardagedikk/electron-simple-starter.git
+cd electron-simple-starter
 npm install
 ```
 
