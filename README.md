@@ -22,7 +22,15 @@ Boostrap
 Popper.js
 jQuery
 ```
+## Files
 
+```sh
+index.html        ->  App homepage
+index.js          ->  Electron configurations
+src/js/custom.js  ->  JavaScript actions on the homepage
+src/css/style.css ->  Style definitions on the homepage
+
+```
 ## License
 
 MIT
